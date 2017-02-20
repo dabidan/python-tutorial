@@ -1,4 +1,4 @@
-# Zahlensysteme zur Basis 6
+# Beispiel: Zahlensysteme: Konvertierung von Zahlen zur Basis 6
 
 
 ## Aufgabe:
@@ -56,7 +56,7 @@ def convert(number, base=6):
 print("Ergebnis:", convert("3501"))
 ```
 
-## Ausgabe
+### Ausgabe
 ```text
 Zwischenergebnis: 3
 Zwischenergebnis: 23
