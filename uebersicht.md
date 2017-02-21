@@ -96,6 +96,5 @@ Textdateien werden meist zeilenweisen gelesen / geschrieben.
 | with open("datei") as datei:    | Öffnet eine Textdatei zum Lesen, mit der im nachfolgenden Block gearbeitet werden kann. |
 | zeile = datei.readline()        | Liest eine Zeile aus der Datei.      |
 | for zeile in datei:  | Wiederholt den nachfolgenden Block mit jedem Zeile aus der Datei. |
-|:-------------|:------------------|
 | with open("datei", "w") as datei:    | Öffnet eine Textdatei zum Schreiben, mit der im nachfolgenden Block gearbeitet werden kann. |
 | datei.write("Hallo!\n") | Schreibt den String in die Datei. Achte auf das Zeileendezeichen `\n`. |
